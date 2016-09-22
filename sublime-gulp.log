@@ -1,0 +1,25 @@
+Remember that you can report errors and get help in https://github.com/NicoSantangelo/sublime-gulp
+
+09-22-2016 11:45:
+C:\Users\Lenovo\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:31
+        throw ex;
+        ^
+
+Error: Missing binding D:\Git\project\node_modules\node-sass\vendor\win32-x64-48\binding.node
+Node Sass could not find a binding for your current environment: Windows 64-bit with Node.js 6.x
+
+Found bindings for the following environments:
+  - Windows 32-bit with Node.js 6.x
+
+This usually happens because your environment has changed since running `npm install`.
+Run `npm rebuild node-sass` to build the binding for your current environment.
+    at Object.<anonymous> (D:\Git\project\node_modules\node-sass\lib\index.js:15:11)
+    at Module._compile (module.js:556:32)
+    at Object.Module._extensions..js (module.js:565:10)
+    at Module.load (module.js:473:32)
+    at tryModuleLoad (module.js:432:12)
+    at Function.Module._load (module.js:424:3)
+    at Module.require (module.js:483:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (D:\Git\project\node_modules\gulp-sass\index.js:187:21)
+    at Module._compile (module.js:556:32)
